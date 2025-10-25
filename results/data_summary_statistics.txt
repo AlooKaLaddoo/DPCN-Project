@@ -1,59 +1,38 @@
 ================================================================================
-DATASET INVENTORY SUMMARY
+INFANT EEG DATASET - SUMMARY STATISTICS
 ================================================================================
 
-Generated: 2025-10-25 14:49:21
+Generated: 2025-10-25 17:01:45
 
-OVERALL STATISTICS
---------------------------------------------------------------------------------
-Total number of subjects: 103
-Total number of sessions: 130
-Sessions per subject (mean ± std): 1.26 ± 0.56
-Sessions per subject (range): 1 - 4
+Total Subjects: 103
+Total Sessions: 130
+Valid EEG Files: 130
 
-SESSION COUNT DISTRIBUTION
---------------------------------------------------------------------------------
-  1 session(s): 81 subjects
-  2 session(s): 18 subjects
-  3 session(s): 3 subjects
-  4 session(s): 1 subjects
+Session Distribution:
+  Subjects with 1 session(s): 81
+  Subjects with 2 session(s): 18
+  Subjects with 3 session(s): 3
+  Subjects with 4 session(s): 1
 
-SEX DISTRIBUTION
---------------------------------------------------------------------------------
-  Sex M: 79 sessions (60.8%)
-  Sex F: 51 sessions (39.2%)
+Sex Distribution:
+  M: 79 sessions
+  F: 51 sessions
 
-AGE STATISTICS (months)
---------------------------------------------------------------------------------
-  Mean: 5.36
-  Median: 4.79
-  Std Dev: 3.09
-  Range: 0.26 - 12.56
-  Missing: 0 sessions
+Age Distribution:
+  Mean: 5.36 months
+  Std Dev: 3.09 months
+  Range: 0.26 - 12.56 months
+  Median: 4.79 months
 
-RECORDING DURATION (seconds)
---------------------------------------------------------------------------------
-  Mean: 636.20
-  Median: 502.24
-  Std Dev: 391.79
-  Range: 36.93 - 1787.57
-  Missing: 0 sessions
+Recording Duration:
+  Mean: 632.46 seconds
+  Range: 32.00 - 1783.99 seconds
 
-CHANNEL COUNT DISTRIBUTION
---------------------------------------------------------------------------------
-  19 channels: 106 sessions
-  21 channels: 1 sessions
-  24 channels: 23 sessions
-
-DATA AVAILABILITY
---------------------------------------------------------------------------------
-  EEG files present: 130 / 130
-  Channels files present: 130 / 130
-  Events files present: 130 / 130
-  Annotations present: 130 / 130
-
-MISSING DATA REPORT
---------------------------------------------------------------------------------
-  ✓ All sessions have EEG files present
+Data Completeness:
+  EEG file: 100.0%
+  Age info: 100.0%
+  Sex info: 100.0%
+  Events: 100.0%
+  Annotations: 100.0%
 
 ================================================================================
