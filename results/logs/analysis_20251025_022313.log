@@ -1,0 +1,17 @@
+2025-10-25 02:23:13 - GrangerCausality - INFO - ================================================================================
+2025-10-25 02:23:13 - GrangerCausality - INFO - Granger Causality Analysis - Session Started
+2025-10-25 02:23:13 - GrangerCausality - INFO - ================================================================================
+2025-10-25 02:23:13 - GrangerCausality - INFO - Environment setup complete
+2025-10-25 02:23:13 - GrangerCausality - INFO - Loaded 103 participants from /home/alookaladdoo/DPCN-Project/Dataset/participants.tsv
+2025-10-25 02:23:13 - GrangerCausality - INFO -   Sex M: 62 subjects
+2025-10-25 02:23:13 - GrangerCausality - INFO -   Sex F: 41 subjects
+2025-10-25 02:23:13 - GrangerCausality - INFO - Starting dataset scan...
+2025-10-25 02:23:13 - GrangerCausality - INFO - Dataset scan complete. Found 130 sessions across 103 subjects
+2025-10-25 02:23:13 - GrangerCausality - INFO - 81 subjects with 1 session(s)
+2025-10-25 02:23:13 - GrangerCausality - INFO - 18 subjects with 2 session(s)
+2025-10-25 02:23:13 - GrangerCausality - INFO - 3 subjects with 3 session(s)
+2025-10-25 02:23:13 - GrangerCausality - INFO - 1 subjects with 4 session(s)
+2025-10-25 02:23:13 - GrangerCausality - INFO - Age statistics: mean=5.36, median=4.79, range=[0.26, 12.56]
+2025-10-25 02:23:14 - GrangerCausality - INFO - Saved dataset overview plot to /home/alookaladdoo/DPCN-Project/results/quality_control/dataset_overview.png
+2025-10-25 02:25:38 - GrangerCausality - INFO - Saved inventory DataFrame to /home/alookaladdoo/DPCN-Project/results/subject_session_inventory.csv
+2025-10-25 02:25:38 - GrangerCausality - INFO - Saved summary statistics to /home/alookaladdoo/DPCN-Project/results/data_summary_statistics.txt

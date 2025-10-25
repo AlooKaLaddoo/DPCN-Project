@@ -1,0 +1,103 @@
+{
+  "analysis_info": {
+    "created": "2025-10-25T14:49:17.454080",
+    "dataset": "NORB Infant EEG",
+    "total_subjects": 103,
+    "total_sessions": 130
+  },
+  "data_parameters": {
+    "dataset_base_path": "/home/alookaladdoo/DPCN-Project/Dataset",
+    "output_base_path": "/home/alookaladdoo/DPCN-Project/results",
+    "subject_list": "auto",
+    "session_handling": "all"
+  },
+  "preprocessing": {
+    "highpass_freq": 0.5,
+    "lowpass_freq": 30.0,
+    "notch_freq": 60.0,
+    "notch_width": 2.0,
+    "target_sfreq": 200,
+    "reference_type": "average",
+    "auto_bad_channels": true,
+    "interpolate_bad_channels": true,
+    "amplitude_threshold": 150
+  },
+  "segmentation": {
+    "window_length": 10.0,
+    "window_overlap": 0.5,
+    "min_segment_duration": 5.0,
+    "use_eyes_closed_only": true,
+    "min_segments_per_session": 3,
+    "max_segments_per_session": 50
+  },
+  "granger_causality": {
+    "model_order_method": "aic",
+    "fixed_model_order": 10,
+    "min_model_order": 1,
+    "max_model_order": 50,
+    "gc_method": "time_domain",
+    "compute_spectral_gc": true,
+    "frequency_bands": {
+      "delta": [
+        0.5,
+        4.0
+      ],
+      "theta": [
+        4.0,
+        8.0
+      ],
+      "alpha": [
+        8.0,
+        13.0
+      ],
+      "beta": [
+        13.0,
+        30.0
+      ],
+      "gamma": [
+        30.0,
+        50.0
+      ]
+    },
+    "check_stationarity": true
+  },
+  "statistics": {
+    "alpha": 0.05,
+    "multiple_comparison_method": "fdr_bh",
+    "use_permutation_testing": true,
+    "n_permutations": 1000,
+    "confidence_level": 0.95
+  },
+  "analysis": {
+    "pairwise_gc": true,
+    "conditional_gc": false,
+    "channels_to_analyze": "all",
+    "age_bins": [
+      0,
+      3,
+      6,
+      9,
+      12
+    ],
+    "analyze_longitudinal": true
+  },
+  "network_analysis": {
+    "threshold_method": "percentile",
+    "threshold_value": 90,
+    "hub_percentile": 90,
+    "community_detection_method": "louvain"
+  },
+  "visualization": {
+    "figure_dpi": 300,
+    "figure_format": "png",
+    "colormap_gc": "viridis",
+    "generate_individual_plots": true,
+    "generate_group_plots": true
+  },
+  "computational": {
+    "n_jobs": -1,
+    "parallel_backend": "loky",
+    "random_seed": 42,
+    "verbose": 1
+  }
+}

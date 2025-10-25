@@ -1,0 +1,116 @@
+================================================================================
+DATA QUALITY REPORT - SAMPLE SESSIONS
+================================================================================
+
+Generated: 2025-10-25 14:49:23
+Number of sessions tested: 3
+
+
+--------------------------------------------------------------------------------
+SESSION 1: sub-NORB00001 / ses-1
+--------------------------------------------------------------------------------
+
+BASIC INFORMATION:
+  Sampling Rate: 200.0 Hz
+  Number of Channels: 21
+  Duration: 714.0 seconds
+  Quality Score: 100.0/100
+  Overall Status: PASS
+
+CHANNELS:
+  Fp1, Fp2, F3, F4, C3, C4, P3, P4, O1, O2, F7, F8, T3, T4, T5, T6, FZ, CZ, PZ, Pg1, Pg2
+
+VALIDATION CHECKS:
+  ✓ Sampling Rate
+  ✓ Duration
+  ✓ Channel Count
+  ✓ No Flat Channels
+  ✓ No Bad Channels
+  ✓ All Checks
+
+EVENTS:
+  Total events: 3
+    - discontinuity: 1
+    - eyes_closed: 1
+    - eyes_open: 1
+
+ANNOTATIONS (from derivatives):
+  Total annotations: 32
+
+
+--------------------------------------------------------------------------------
+SESSION 2: sub-NORB00002 / ses-1
+--------------------------------------------------------------------------------
+
+BASIC INFORMATION:
+  Sampling Rate: 200.0 Hz
+  Number of Channels: 19
+  Duration: 528.0 seconds
+  Quality Score: 100.0/100
+  Overall Status: PASS
+
+CHANNELS:
+  Fp1, Fp2, F3, F4, C3, C4, P3, P4, O1, O2, F7, F8, T3, T4, T5, T6, FZ, CZ, PZ
+
+BAD CHANNELS DETECTED:
+  - CZ
+
+VALIDATION CHECKS:
+  ✓ Sampling Rate
+  ✓ Duration
+  ✓ Channel Count
+  ✓ No Flat Channels
+
+WARNINGS:
+  ⚠ Channel CZ marked as bad (z-score: 7.94)
+
+EVENTS:
+  Total events: 4
+    - discontinuity: 3
+    - vigilia ojos abiertos: 1
+
+ANNOTATIONS (from derivatives):
+  Total annotations: 15
+
+
+--------------------------------------------------------------------------------
+SESSION 3: sub-NORB00003 / ses-1
+--------------------------------------------------------------------------------
+
+BASIC INFORMATION:
+  Sampling Rate: 200.0 Hz
+  Number of Channels: 19
+  Duration: 1784.0 seconds
+  Quality Score: 100.0/100
+  Overall Status: PASS
+
+CHANNELS:
+  Fp1, Fp2, F3, F4, C3, C4, P3, P4, O1, O2, F7, F8, T3, T4, T5, T6, FZ, CZ, PZ
+
+VALIDATION CHECKS:
+  ✓ Sampling Rate
+  ✓ Duration
+  ✓ Channel Count
+  ✓ No Flat Channels
+  ✓ No Bad Channels
+  ✓ All Checks
+
+EVENTS:
+  Total events: 151
+    - photic_stimulation: 149
+    - discontinuity: 1
+    - OJOS CERRADOS: 1
+
+ANNOTATIONS (from derivatives):
+  Total annotations: 36
+
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+
+Average Quality Score: 100.0/100
+Average Number of Channels: 19.7
+Average Recording Duration: 1008.7 seconds
+Total Bad Channels Detected: 1
+Sessions with Issues: 0/3
